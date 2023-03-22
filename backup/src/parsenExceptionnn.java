@@ -74,6 +74,8 @@ public class parsenExceptionnn {
 
     } // Ende des Konstukror
 
+
+
     public List<DatenzumParsen> getDatenzumparsen() {
 
         return measurements;

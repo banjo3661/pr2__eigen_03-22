@@ -22,21 +22,23 @@ public class umlaut_txt_analyz {
             }
         }
 
-        public int getCharacterCount (char c) {
 
-            if (umlautCounts.containsKey(c)) {
-                return umlautCounts.get(c);
-            } else {
-                return 0;
-            }
+
+
+
+
+
+
+
+    }  // Ende kosntruktor
+
+    public int getCharacterCount (char c) {
+
+        if (umlautCounts.containsKey(c)) {
+            return umlautCounts.get(c);
+        } else {
+            return 0;
         }
-
-
-
-
-
-
-
     }
 
 

@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class DatenzumParsen {
 
     private String date;
@@ -49,8 +46,15 @@ public class DatenzumParsen {
     }
 
 
-
-
+    @Override
+    public String toString() {
+        return "DatenzumParsen{" +
+                "date='" + date + '\'' +
+                ", carNumber=" + carNumber +
+                ", startSecond=" + startSecond +
+                ", finishSecond=" + finishSecond +
+                '}';
+    }
 }
 
 
